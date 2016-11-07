@@ -1,5 +1,6 @@
 body {
   font-family: "ralewaymedium", sans-serif;
+  color:#808080;
 }
 
 header {
@@ -99,6 +100,7 @@ nav li {
   text-transform: uppercase;
   font-size: 40px;
   text-align: center;
+  color:#000;
 }
 
 #welcome-box h1 span {
@@ -111,6 +113,7 @@ nav li {
   text-align: center;
   padding:30px;
   line-height: 25px;
+  font-weight: 600;
 }
 
 #welcome-box .button {
@@ -120,4 +123,57 @@ nav li {
   line-height: 50px;
   text-align: center;
   font-size: 20px;
+}
+
+
+
+.offer-box {
+  display:inline-block;
+  height:300px;
+  width:376px;
+  margin-top:30px;
+  margin-right: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#clair {
+  background-image: url("../images/box1_img.jpg");
+}
+
+#margarita {
+  background-image: url("../images/box2_img.jpg");
+}
+
+.text {
+  position: absolute;
+  margin-right: 0px;
+  padding: 30px 20px;
+  border:1px solid 	#C0C0C0;
+  box-sizing: border-box;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.title {
+  font-weight:800;
+  border-bottom: 10px solid #42C2B3;
+  color:#000;
+  display:inline-block;
+  padding-right:30px;
+}
+
+.text p {
+  margin-bottom: 30px;
+}
+
+.title-box {
+  width:346px;
+  height:30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom:20px;
+  padding:25px 15px;
 }
