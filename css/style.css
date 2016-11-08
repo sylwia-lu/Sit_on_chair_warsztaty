@@ -81,9 +81,7 @@ nav li {
 #image-box {
   width:400px;
   height:500px;
-  background-image: url("../images/black_chair.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("../images/black_chair.png") center no-repeat;
   display: inline-block;
 }
 
@@ -169,6 +167,14 @@ nav li {
   padding-right:30px;
 }
 
+.main {
+  color:#808080;
+  font-size: 20px;
+  line-height: 30px;
+  width: 346px;
+  display: block;
+}
+
 .text p {
   margin-bottom: 30px;
 }
@@ -191,13 +197,7 @@ nav li {
   padding:30px;
 }
 
-#prices .title {
-  color:#808080;
-  font-size: 20px;
-  line-height: 30px;
-  width: 346px;
-  display: block;
-}
+
 
 .price-box {
   display:inline-block;
@@ -324,4 +324,113 @@ nav li {
   background-color: #fff;
   color: #42C2B3;
   font-weight: 600;
+}
+
+#contact {
+  height: 500px;
+  position: relative;
+}
+
+#contact .container {
+  padding: 30px;
+}
+
+.column {
+  display: inline-block;
+  height: 500px;
+  position: relative;
+}
+
+.left {
+  float:left;
+  margin-top: 30px;
+}
+
+.right {
+  float: right;
+  width:380px;
+}
+
+
+
+input, textarea {
+  display:block;
+  width:700px;;
+  height:35px;
+  margin-bottom: 20px;
+  padding:10px;
+  font-family: "ralewaymedium", sans-serif;
+  font-size: 26px;
+  font-weight: 200;
+  color:#808080;
+  border:2px solid #CAEEE9;
+
+}
+
+textarea {
+  resize: none;
+  height:200px;
+}
+
+
+::-webkit-input-placeholder {
+   color: #d6d6d6;
+   font-size: 26px;
+   font-weight: 200;
+}
+
+::-moz-placeholder {
+   color: #d6d6d6;
+   font-size: 26px;
+   font-weight: 200;
+}
+
+:-ms-input-placeholder {
+   color: #d6d6d6;
+   font-size: 26px;
+   font-weight: 200;
+}
+
+#red-chair {
+  background: url("../images/red_chair.png") no-repeat center;
+  width:380px;
+  height:230px;
+  margin: 0 auto;
+}
+
+
+
+.tick {
+  width: 380px;
+  height:50px;
+  margin: 25px auto;
+}
+
+input[type="checkbox"] {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  display: inline;
+  float: left;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #fff;
+  color: #42C2B3;
+}
+
+
+label {
+  height: 50px;
+  width: 300px;
+  line-height: 25px;
+  display: inline;
+  float: right;
+  padding-left: 20px;
+}
+
+input[type="submit"] {
+  width: 380px;
+  height:auto;
+  margin: 55px auto;
 }
