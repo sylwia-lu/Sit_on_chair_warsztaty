@@ -327,7 +327,7 @@ nav li {
 }
 
 #contact {
-  height: 500px;
+  height: 550px;
   position: relative;
 }
 
@@ -339,11 +339,11 @@ nav li {
   display: inline-block;
   height: 500px;
   position: relative;
+  margin-top: 30px;
 }
 
 .left {
   float:left;
-  margin-top: 30px;
 }
 
 .right {
@@ -353,7 +353,7 @@ nav li {
 
 
 
-input, textarea {
+input:not(#green), textarea {
   display:block;
   width:700px;;
   height:35px;
@@ -393,8 +393,9 @@ textarea {
 
 #red-chair {
   background: url("../images/red_chair.png") no-repeat center;
+  background-size: contain;
   width:380px;
-  height:230px;
+  height:210px;
   margin: 0 auto;
 }
 
@@ -404,33 +405,67 @@ textarea {
   width: 380px;
   height:50px;
   margin: 25px auto;
+  position: relative;
 }
 
 input[type="checkbox"] {
+
+}
+
+.tick label {
   width: 50px;
   height: 50px;
-  margin: 0 auto;
   display: inline;
   float: left;
-}
-
-input[type="checkbox"]:checked {
-  background-color: #fff;
-  color: #42C2B3;
+  border:2px solid #CAEEE9;
+  background: url("../images/form_ok.jpg") center no-repeat;
 }
 
 
-label {
+
+input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.tick p {
   height: 50px;
   width: 300px;
   line-height: 25px;
   display: inline;
   float: right;
   padding-left: 20px;
+  color: #d6d6d6;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
 }
 
-input[type="submit"] {
-  width: 380px;
-  height:auto;
-  margin: 55px auto;
+.send {
+  width: 380px !important;
+  height:auto !important;
+  margin: 40px auto !important;
+  color: #fff !important;
+}
+
+footer {
+  position:relative;
+  height:30px;
+  padding:10px;
+  line-height: 30px;
+  font-size: 14px;
+  word-spacing: 3px;
+}
+
+#media {
+  list-style: none;
+}
+
+#media li {
+  display: inline-block;
+  line-height: 45px;
+}
+
+#media li.last {
+  float: right;
+  font-size: 16px;
 }
