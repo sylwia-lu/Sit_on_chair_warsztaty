@@ -1,3 +1,5 @@
+/* commom */
+
 body {
   font-family: "ralewaymedium", sans-serif;
   color:#808080;
@@ -7,18 +9,6 @@ a:hover {
   cursor: pointer;
 }
 
-header {
-  position:relative;
-  height:30px;
-  background-color: #000;
-  padding:10px;
-  color:#fff;
-  line-height: 30px;
-  letter-spacing: 1px;
-  font-size: 14px;
-  word-spacing: 3px;
-  text-transform: uppercase;
-}
 
 .container {
   width:1200px;
@@ -33,6 +23,23 @@ header {
   text-transform: uppercase;
 }
 
+/* header */
+
+header {
+  position:relative;
+  height:30px;
+  background-color: #000;
+  padding:10px;
+  color:#fff;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+}
+
+
+
 #logo {
   width:150px;
   display: inline-block;
@@ -46,7 +53,6 @@ header {
 nav {
     float:right;
     display: inline-block;
-    position: relative;
 }
 
 nav li {
@@ -63,7 +69,6 @@ nav li {
 
 
 nav li:hover .submenu {
-  cursor: pointer;
   left:30px;
   width:130px;
   padding:10px 0;
@@ -115,7 +120,7 @@ nav li:hover .submenu li:hover {
 
 
 
-
+/* welcome */
 
 #welcome {
   position: relative;
@@ -136,7 +141,6 @@ nav li:hover .submenu li:hover {
   line-height: 60px;
   margin:220px 0;
   position: absolute;
-  cursor: pointer;
 }
 
 #left-arrow {
@@ -173,7 +177,6 @@ nav li:hover .submenu li:hover {
 #welcome-box h1 span {
   color:#42C2B3;
   font-weight: bold;
-
 }
 
 #welcome-box p {
@@ -193,6 +196,7 @@ nav li:hover .submenu li:hover {
 }
 
 
+/* offers */
 
 #offers {
   height:400px;
@@ -228,6 +232,10 @@ nav li:hover .submenu li:hover {
   line-height: 20px;
 }
 
+.text p {
+  margin-bottom: 30px;
+}
+
 .title {
   font-weight:800;
   border-bottom: 10px solid #42C2B3;
@@ -244,9 +252,6 @@ nav li:hover .submenu li:hover {
   display: block;
 }
 
-.text p {
-  margin-bottom: 30px;
-}
 
 .title-box {
   width:346px;
@@ -256,6 +261,8 @@ nav li:hover .submenu li:hover {
   bottom:20px;
   padding:25px 15px;
 }
+
+/* prices */
 
 #prices {
   height:900px;
@@ -395,6 +402,8 @@ nav li:hover .submenu li:hover {
   font-weight: 600;
 }
 
+/* contactt */
+
 #contact {
   height: 550px;
   position: relative;
@@ -517,6 +526,8 @@ input[type="checkbox"] {
   color: #fff !important;
   cursor: pointer;
 }
+
+/* footer */
 
 footer {
   position:relative;
